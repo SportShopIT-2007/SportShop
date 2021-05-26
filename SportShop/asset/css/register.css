@@ -1,0 +1,460 @@
+* {box-sizing: border-box}
+
+/* Add padding to containers */
+.container {
+    position: relative;
+    padding: 16px;
+}
+
+/* Rectangle 1 */
+
+#rectangle1{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+
+    background: #F2F2F2;
+}
+
+/* Rectangle 2 */
+
+#rectangle2{position: absolute;
+    width: 1080px;
+    height: 604px;
+    left: 203px;
+    top: 65px;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.17);
+    border-radius: 10px;
+}
+
+/* Rectangle 3 */
+
+#rectangle3{
+    position: absolute;
+    width: 540px;
+    height: 604px;
+    left: 745px;
+    top: 65px;
+
+    background: linear-gradient(180deg, #9E9D9D 0%, #000000 100%);
+    border-radius: 0px 10px 10px 0px;
+}
+
+/* Ellipse doesnt exist*/
+
+#ellipse{
+    position: absolute;
+    width: 354px;
+    height: 354px;
+    left: 744px;
+    top: 195px;
+
+    background: rgba(159, 199, 235, 0.22);
+    border: 60px solid rgba(3, 3, 3, 0.5);
+    box-sizing: border-box;
+}
+
+
+
+/* Login */
+
+#login{
+    position: absolute;
+    width: 51px;
+    height: 52px;
+    left: 570px;
+    top: 123px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 27px;
+
+    /* identical to box height */
+
+    color: #48A7FF;
+}
+
+
+
+/* Sing Up */
+
+#SingUp{
+    position: absolute;
+    width: 419px;
+    height: 54px;
+    left: 246px;
+    top: 585px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height */
+
+
+    color: #686868;
+
+}
+
+
+/* SING IN */
+
+#SingIn{
+    position: absolute;
+    width: 87px;
+    height: 36px;
+    left: 249px;
+    top: 250px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height */
+
+
+    color: #4A4949;
+}
+
+
+/* Sing in to continue to our application */
+
+#SingDis{
+    position: absolute;
+    width: 372px;
+    height: 30px;
+    left: 249px;
+    top: 280px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height */
+
+
+    color: #C5C5C5;
+}
+
+
+/* Email */
+
+#emailName{
+    position: absolute;
+    width: 419px;
+    height: 0px;
+    left: 246px;
+    top: 355px;
+}
+
+#email{position: absolute;
+    width: 419px;
+    height: 0px;
+    left: 246px;
+    top: 385px;
+}
+
+
+
+/* Password */
+
+#passwordName{
+    position: absolute;
+    width: 419px;
+    height: 0px;
+    left: 246px;
+    top: 411px;
+}
+
+#password{
+    position: absolute;
+    width: 419px;
+    height: 0px;
+    left: 246px;
+    top: 441px;
+
+    transform: rotate(-0.29deg);
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+
+
+/* Forgot Password? */
+#forgotP{
+    position: absolute;
+    width: 133px;
+    height: 23px;
+    left: 568px;
+    top: 500px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+
+    color: #959292;
+}
+
+.nav_link:hover {
+    color: royalblue;
+}
+
+
+.nav_link:hover:after,
+.nav_link.active:after {
+    opacity: 1;
+}
+
+.nav_link.active {
+    color: #fce38a;
+}
+
+
+
+/* loginbuttom */
+
+#SingINN{
+    position: absolute;
+    width: 419px;
+    height: 54px;
+    left: 246px;
+    top: 525px;
+    color: aqua;
+}
+
+.registerbtn:hover {
+    opacity:1;
+}
+
+#SingUp{
+    width: 54.5%;
+
+}
+.registerbtn {
+    background: linear-gradient(268.96deg, #B6B6B6 0%, #000000 102.74%);
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+    background-color: #f1f1f1;
+    text-align: center;
+}
+
+/* логотип 1 */
+
+#logo{
+    position: absolute;
+    width: 86px;
+    height: 46px;
+    left: 245px;
+    top: 124px;
+
+    background: url(img/логотип.png);
+    background-size: cover;
+}
+
+
+/* undraw_Tabs_re_a2bd 1 */
+
+#picture{
+    position: absolute;
+    width: 407px;
+    height: 339px;
+    left: 800px;
+    top: 175px;
+    background: url(img/undraw_Tabs_re_a2bd.svg);
+    background-size: cover;
+}
+
+
+/* undraw_greek_freak_j2qb 1 */
+
+#Bpicture{
+    position: absolute;
+    width: 196px;
+    height: 165px;
+    left: 490px;
+    top: 102px;
+
+    background: url(img/undraw_greek_freak_j2qb.png);
+    background-size: cover;
+}
+
+
+
+
+
+
+/* MODAL */
+
+* {box-sizing: border-box}
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+/* Add a background color when the inputs get focus */
+input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #36BFF9;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+    opacity: 0.9;
+    border-radius: 10px;
+}
+
+button:hover {
+    opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+    padding: 14px 20px;
+    background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+    float: left;
+    width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+    padding: 16px;
+}
+
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+
+}
+.modal.backgroud_color{
+    filter: opacity(40%);
+}
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 50%; /* Could be more or less, depending on screen size */
+}
+
+/* Style the horizontal ruler */
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+
+/* The Close Button (x) */
+.close {
+    position: absolute;
+    right: 35px;
+    top: 15px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #f1f1f1;
+}
+
+.close:hover,
+.close:focus {
+    color: #f44336;
+    cursor: pointer;
+}
+
+/* Clear floats */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.message{
+    border: 2px solid #fce38a;
+    border-radius: 3px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+.error_msg{
+    position: absolute;
+    left:16%;
+    bottom: 28%;
+    color: red;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+    .cancelbtn, .signupbtn {
+        width: 100%;
+    }
+}
+
+/*
+
+*/
+
+
+
+
+

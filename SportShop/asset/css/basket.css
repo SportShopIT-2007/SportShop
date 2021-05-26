@@ -1,0 +1,242 @@
+* {box-sizing: border-box}
+.header{
+position: absolute;
+width: 100%;
+height: 10%;
+background: #FFFFFF;
+border: 1px solid #000000;
+box-sizing: border-box;
+left: 0px;
+top: 0px;
+}
+.nav{
+    width: 40%;
+    height: 100%;
+    float: right;
+}
+.logo{
+position: absolute;
+width: 92px;
+height: 50px;
+left: 20px;
+top: 8px;
+background: url(image/logo.png);
+background-size: cover;
+}
+.lipa{
+position: absolute;
+width: 30px;
+height: 30px;
+left: 460px;
+background: url(image/lipa.png);
+background-size: cover;
+margin-top: 15px;
+}
+.searchbox{
+position: absolute;
+width: 330px;
+height: 35px;
+left: 500px;
+top: 15px;
+background: #C4C4C4;
+border-radius: 16px;
+}
+.inputS{
+    outline: none;
+    border: none;
+}
+#search{
+    position: absolute;
+    background: #C4C4C4;
+    top: 3px;
+    left: 25px;
+    border: 0ch;
+    font-size: 24px;
+    border-radius: 16px;
+}
+.brand{
+position: absolute;
+left: 850px;
+}
+.brand:hover{
+    background-color: #C4C4C4;
+
+}
+.reg{
+    position: absolute;
+    left: 975px;
+}
+.login{
+    position: absolute;
+    left: 1125px;
+}
+.basket{
+top: 12px;
+width: 52px;
+height: 44px;
+background: url(image/basket.jpg);
+background-size: cover;
+}
+.basket:hover{
+    background-color: #C4C4C4;
+}
+.acc{
+    width: 44px;
+    height: 44px;
+    top: 12px;
+    background: url(image/account.png);
+    background-size: cover;
+}
+.main{
+    position: absolute;
+    top: 65px;
+    width: 100%;
+    height: 90%;
+    right: 1px;
+}
+.bio{
+    width: 46%;
+    height: 100%;
+    position: relative;
+    font-size: 24px;
+    line-height: 36px;
+}
+.back{
+position: relative;
+top: 7px;
+width: 24%;
+height: 994px;
+}
+#val1{
+background: url(image/баскетбил.jpg);
+background-size:cover;
+    float: left;
+
+}
+#val2{
+    background: url(image/бегунья0.jpg);
+    background-size: cover;
+    float: right;
+}
+.Pin{
+    position: absolute;
+    width: 250px;
+    height: 560px;
+    background: #F0ECEC;
+    border-radius: 7px;
+    left: 375px;
+    padding: 10px;
+}
+.form{
+    position: absolute;
+    width: 495px;
+    height: 560px;
+    background: #EFEFEF;
+    border-radius: 5px;
+    left: 635px;
+}
+form{
+    font-size: 18px;
+}
+.data{
+width: 458px;
+height: 51px;
+top: 0px;
+background-color: white;
+}
+.acc:hover{
+    background-color: #C4C4C4;
+    border-radius: 10px;
+}
+.footer{
+position: absolute;
+width: 790px;
+height: 244px;
+top:734px;
+left: 365px;
+background: #000000;
+}
+.cat{
+    border-radius: 15px;
+}
+label{
+    background-color:  honeydew;
+}
+.cat1{
+    border-radius: 15px;
+    text-align: center;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    text-decoration: none;
+    color: #000000;
+    height: 20px;
+    width: 77px;
+    text-transform: uppercase;
+}
+#navcat{
+    position: relative;
+    display: inline-block;
+    margin: 0 25px;
+    bottom: 5px;
+}
+.cat1:hover{
+    background-color: #C4C4C4;
+    cursor:pointer;
+}
+.cat:hover{
+    background-color: white;
+    cursor: pointer;
+}
+.data{
+    left: 20px;
+}
+.footer_inner {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 60px;
+}
+
+.footer_header {
+    font-size: 20px;
+    color:#999;
+    font-style: italic;
+    font-weight: 300;
+    
+    margin-bottom: 20px;
+}
+
+.footer_header a {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
+
+    font-size: 25px;
+    color: white;
+}
+
+.footer_cols1 {
+    width: 40%;
+}
+
+.footer_cols2 {
+    width: 40%;
+}
+
+.footer_content {
+    text-align: center;
+    
+    margin: 5px;
+    font-size: 20px;
+    color:white;
+    font-weight: 300;
+}
+
+.copyright {
+    color:white;
+    
+    font-size: 15px;
+    text-align: center;
+}
+ 
